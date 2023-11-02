@@ -1,1 +1,117 @@
 /* your code here */
+
+
+*{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+li {
+	font-size: 8px;
+    list-style: none;
+}
+img{
+    width: 79%;
+	box-shadow: 2px 2px 4px -2px;
+    border: .5px solid grey;
+    width: 79%;
+}
+
+
+    body {
+        margin-top:50px;
+    display: flex;
+    background: rgba(16, 227, 127, 1);
+    justify-content: center;
+    align-items: center;
+}
+
+.product {
+    width: 50vw;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+ ul{
+ 
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.product__photo{
+	border-radius: 6px;
+    box-shadow: 6px 6px 51px -11px;
+    margin-left: -50px;
+    width: 50%;
+    height: 87%;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.photo-main{
+	background-color: rgba(166, 228, 31, 1);
+    height: 236px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    align-content: space-between;
+    justify-content: flex-start;
+   
+}
+.photo-container{
+	
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.photo-main img {
+	box-shadow: none;
+	border: none;
+    filter: drop-shadow(13px 2px 52px  white);
+    margin-left: -40px;
+    width: 200px;
+}
+
+.product__info{
+	/* gap: 52px; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.controls{
+	margin-inline: 10px;
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button {
+    border-radius: 5px;
+    background-color: red;
+    border: none;
+    outline: none;
+    height: 33px;
+    width: 150px;
+}
+
+
+
+
+
